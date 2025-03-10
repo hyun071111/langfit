@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LangFit | test</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html"><img src="./img/logo.png" alt="logo"></a>
+            <li>
+                <a href="./index.html"><div></div>언어검사</a>
+                <a href="./result/result.html"><div></div>추천언어</a>
+                <a href="./lecture/lecture.html"><div></div>추천강의</a>
+                <a href="./chat/chat.html"><div></div>Ai 챗봇</a>
+            </li>
+        </nav>
+    </header>
+    <main>
+        <div class="intro">
+            <ul>
+                <li class="title">
+                    <h3>당신과 어울리는 프로그래밍 언어는?</h3>
+                    <h1>프로그래밍 언어 추천 테스트</h1>
+                    <img src="./img/logo_white.png" alt="logo_white">
+                    <a href="#test">테스트</a>
+                </li>
+                <img src="./img/coding.png" alt="coding">
+            </ul>
+            <article>
+                <div>
+                    <img src="./img/time.png" alt="time">
+                    <span>5분 검사</span>
+                </div>
+                <div>
+                    <img src="./img/easy.png" alt="easy">
+                    <span>쉬운 질문</span>
+                </div>
+                <div>
+                    <img src="./img/start.png" alt="start">
+                    <span>코딩 입문</span>
+                </div>
+            </article>
+        </div>
+        <div class="move">
+            <div>
+                <span>지금 시작하세요</span>
+                <a href="#test"><img src="./img/arrow.png" alt="arrow"></a>
+            </div>
+        </div>
+        <div id="test">
+            <div class="page page1">
+                <section class="block">
+                    <div>
+                        <h1>기초부터 탄탄히 배우는 걸 좋아하시나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select C">
+                            <input type="radio" name="radio01" value="3" >
+                            <input type="radio" name="radio01" value="2" >
+                            <input type="radio" name="radio01" value="1" >
+                            <input type="radio" name="radio01" value="0" >
+                            <input type="radio" name="radio01" value="-1">
+                            <input type="radio" name="radio01" value="-2">
+                            <input type="radio" name="radio01" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>직접 조립해 보는 걸 즐기시나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select C">
+                            <input type="radio" name="radio02" value="3" >
+                            <input type="radio" name="radio02" value="2" >
+                            <input type="radio" name="radio02" value="1" >
+                            <input type="radio" name="radio02" value="0" >
+                            <input type="radio" name="radio02" value="-1">
+                            <input type="radio" name="radio02" value="-2">
+                            <input type="radio" name="radio02" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>작동 원리를 깊이 이해하고 싶나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select C">
+                            <input type="radio" name="radio03" value="3" >
+                            <input type="radio" name="radio03" value="2" >
+                            <input type="radio" name="radio03" value="1" >
+                            <input type="radio" name="radio03" value="0" >
+                            <input type="radio" name="radio03" value="-1">
+                            <input type="radio" name="radio03" value="-2">
+                            <input type="radio" name="radio03" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>복잡한 문제 해결에 흥미가 있나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select Cpp">
+                            <input type="radio" name="radio04" value="3" >
+                            <input type="radio" name="radio04" value="2" >
+                            <input type="radio" name="radio04" value="1" >
+                            <input type="radio" name="radio04" value="0" >
+                            <input type="radio" name="radio04" value="-1">
+                            <input type="radio" name="radio04" value="-2">
+                            <input type="radio" name="radio04" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>여러 도구를 활용해 무언가를 만드는 걸 좋아하시나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select Cpp">
+                            <input type="radio" name="radio05" value="3" >
+                            <input type="radio" name="radio05" value="2" >
+                            <input type="radio" name="radio05" value="1" >
+                            <input type="radio" name="radio05" value="0" >
+                            <input type="radio" name="radio05" value="-1">
+                            <input type="radio" name="radio05" value="-2">
+                            <input type="radio" name="radio05" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>세부적인 조정을 통해 최적의 결과를 추구하시나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select Cpp">
+                            <input type="radio" name="radio06" value="3" >
+                            <input type="radio" name="radio06" value="2" >
+                            <input type="radio" name="radio06" value="1" >
+                            <input type="radio" name="radio06" value="0" >
+                            <input type="radio" name="radio06" value="-1">
+                            <input type="radio" name="radio06" value="-2">
+                            <input type="radio" name="radio06" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <div class="next">
+                    <a href="#test">다음</a>
+                </div>
+            </div>
+            <div class="page">
+                <section class="block">
+                    <div>
+                        <h1>창의적인 프로젝트나 게임을 좋아하시나요</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select CS">
+                            <input type="radio" name="radio07" value="3" >
+                            <input type="radio" name="radio07" value="2" >
+                            <input type="radio" name="radio07" value="1" >
+                            <input type="radio" name="radio07" value="0" >
+                            <input type="radio" name="radio07" value="-1">
+                            <input type="radio" name="radio07" value="-2">
+                            <input type="radio" name="radio07" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>편리한 환경에서 작업하는 걸 선호하시나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select CS">
+                            <input type="radio" name="radio08" value="3" >
+                            <input type="radio" name="radio08" value="2" >
+                            <input type="radio" name="radio08" value="1" >
+                            <input type="radio" name="radio08" value="0" >
+                            <input type="radio" name="radio08" value="-1">
+                            <input type="radio" name="radio08" value="-2">
+                            <input type="radio" name="radio08" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>직관적인 결과가 빠르게 나오는 걸 즐기시나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select CS">
+                            <input type="radio" name="radio09" value="3" >
+                            <input type="radio" name="radio09" value="2" >
+                            <input type="radio" name="radio09" value="1" >
+                            <input type="radio" name="radio09" value="0" >
+                            <input type="radio" name="radio09" value="-1">
+                            <input type="radio" name="radio09" value="-2">
+                            <input type="radio" name="radio09" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>간단하게 시작해서 빠르게 결과를 보고 싶나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select python">
+                            <input type="radio" name="radio10" value="3" >
+                            <input type="radio" name="radio10" value="2" >
+                            <input type="radio" name="radio10" value="1" >
+                            <input type="radio" name="radio10" value="0" >
+                            <input type="radio" name="radio10" value="-1">
+                            <input type="radio" name="radio10" value="-2">
+                            <input type="radio" name="radio10" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>일상 작업을 더 쉽게 만드는 걸 좋아하시나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select python">
+                            <input type="radio" name="radio11" value="3" >
+                            <input type="radio" name="radio11" value="2" >
+                            <input type="radio" name="radio11" value="1" >
+                            <input type="radio" name="radio11" value="0" >
+                            <input type="radio" name="radio11" value="-1">
+                            <input type="radio" name="radio11" value="-2">
+                            <input type="radio" name="radio11" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>다양한 시도를 통해 가능성을 탐색하는 걸 즐기시나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select python">
+                            <input type="radio" name="radio12" value="3" >
+                            <input type="radio" name="radio12" value="2" >
+                            <input type="radio" name="radio12" value="1" >
+                            <input type="radio" name="radio12" value="0" >
+                            <input type="radio" name="radio12" value="-1">
+                            <input type="radio" name="radio12" value="-2">
+                            <input type="radio" name="radio12" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <div class="next">
+                    <a href="#test">다음</a>
+                </div>
+            </div>
+            <div class="page">
+                <section class="block">
+                    <div>
+                        <h1>안정적이고 오래가는 것을 만드는 걸 좋아하시나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select java">
+                            <input type="radio" name="radio13" value="3" >
+                            <input type="radio" name="radio13" value="2" >
+                            <input type="radio" name="radio13" value="1" >
+                            <input type="radio" name="radio13" value="0" >
+                            <input type="radio" name="radio13" value="-1">
+                            <input type="radio" name="radio13" value="-2">
+                            <input type="radio" name="radio13" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>큰 그림을 그리며 체계적으로 일하는 걸 선호하시나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select java">
+                            <input type="radio" name="radio14" value="3" >
+                            <input type="radio" name="radio14" value="2" >
+                            <input type="radio" name="radio14" value="1" >
+                            <input type="radio" name="radio14" value="0" >
+                            <input type="radio" name="radio14" value="-1">
+                            <input type="radio" name="radio14" value="-2">
+                            <input type="radio" name="radio14" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>여러 상황에서도 통하는 해결책을 찾고 싶나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select java">
+                            <input type="radio" name="radio15" value="3" >
+                            <input type="radio" name="radio15" value="2" >
+                            <input type="radio" name="radio15" value="1" >
+                            <input type="radio" name="radio15" value="0" >
+                            <input type="radio" name="radio15" value="-1">
+                            <input type="radio" name="radio15" value="-2">
+                            <input type="radio" name="radio15" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>변화가 즉시 보이는 일을 즐기시나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select js">
+                            <input type="radio" name="radio16" value="3" >
+                            <input type="radio" name="radio16" value="2" >
+                            <input type="radio" name="radio16" value="1" >
+                            <input type="radio" name="radio16" value="0" >
+                            <input type="radio" name="radio16" value="-1">
+                            <input type="radio" name="radio16" value="-2">
+                            <input type="radio" name="radio16" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>사람들과 소통하거나 상호작용하는 걸 좋아하시나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select js">
+                            <input type="radio" name="radio17" value="3" >
+                            <input type="radio" name="radio17" value="2" >
+                            <input type="radio" name="radio17" value="1" >
+                            <input type="radio" name="radio17" value="0" >
+                            <input type="radio" name="radio17" value="-1">
+                            <input type="radio" name="radio17" value="-2">
+                            <input type="radio" name="radio17" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>빠르게 피드백을 받고 수정하는 걸 즐기시나요?</h1>
+                    </div>
+                    <div>
+                        <span>그렇다</span>
+                        <div class="select js">
+                            <input type="radio" name="radio18" value="3" >
+                            <input type="radio" name="radio18" value="2" >
+                            <input type="radio" name="radio18" value="1" >
+                            <input type="radio" name="radio18" value="0" >
+                            <input type="radio" name="radio18" value="-1">
+                            <input type="radio" name="radio18" value="-2">
+                            <input type="radio" name="radio18" value="-3" >
+                        </div>
+                        <span>그렇지 않다</span>
+                    </div>
+                </section>
+                <div class="result">
+                    <a href="./result/result.html">결과 확인</a>
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <a href="./index.html">
+                <img src="./img/logo.png" alt="logo">
+            </a>
+            <nav>
+                <a href="./index.html">언어검사</a>
+                <a href="./result/result.html">추천언어</a>
+                <a href="./lecture/lecture.html">추천강의</a>
+                <a href="./chat/chat.html">Ai 챗봇</a>
+            </nav>
+            <div>
+                <a href="https://github.com/yjleev">
+                    <img src="./img/github.png" alt="github">
+                </a>
+                <a href="https://www.instagram.com/sjlee081010/">
+                    <img src="./img/instargram.png" alt="instargram">
+                </a>
+                <a href="mailto:sjlee081010@gmail.com">
+                    <img src="./img/gmail.png" alt="gmail">
+                </a>
+            </div>
+            <p>ⓒ 2024. SeonJaeLee All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
