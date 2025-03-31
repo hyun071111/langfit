@@ -37,12 +37,30 @@ cd langfit
 ```
 
 ### 2. 로컬 서버 실행
-Python을 사용하여 간단한 HTTP 서버를 실행할 수 있습니다.
+Python을 사용하여 서버를 실행할 수 있습니다.
 
-```bash
-cd chat
-python app.py
-```
+3. 가상 환경 생성 및 활성화 (선택 사항이지만 권장됨):
+   - 가상 환경 생성:
+     ```bash
+     python -m venv venv
+     ```
+   - 가상 환경 활성화:
+     - Windows:
+       ```bash
+       venv\Scripts\activate
+       ```
+     - macOS/Linux:
+       ```bash
+       source venv/bin/activate
+       ```
+4. 필요한 패키지 설치:
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. **애플리케이션 실행**:
+   ```bash
+   python app.py
+   ```
 
 실행하고 웹사이트를 실행하여 들어가보면 챗봇을 이용할 수 있다.
 
