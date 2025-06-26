@@ -16,7 +16,7 @@ langfit/
 ├── chat/         # 채팅 인터페이스 관련 파일
 ├── img/          # 이미지 파일
 ├── lecture/      # 강의 자료
-├── result/       # 학습 결과 저장 파일
+├── result/       # 추천 언어 결과 저장 파일
 ├── index.html    # 메인 HTML 파일
 ├── script.js     # JavaScript 기능 구현
 ├── style.css     # 스타일시트
@@ -54,6 +54,9 @@ Python을 사용하여 서버를 실행할 수 있습니다.
        source venv/bin/activate
        ```
 4. 필요한 패키지 설치:
+   ```bash
+   cd chat
+   ```
    ```bash
    pip install -r requirements.txt
    ```
